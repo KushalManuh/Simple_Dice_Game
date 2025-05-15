@@ -4,8 +4,8 @@ sp1=0
 sp2=0
 print("Play player 1")
 while True:
-    choice=input("Would you like to Roll or Stop?: ").lower()
-    if choice=="roll":
+    choice=input("Would you like to Roll (r) or Stop (s)?: ").lower()
+    if choice=="r":
         dice=random.randint(1,6)
         if dice==1:
             print("Dice rolled 1...")
@@ -17,7 +17,7 @@ while True:
             print("Dice rolled", dice)
             sp1+=dice
             print("Player 1 score=", sp1)
-    elif choice=="stop":
+    elif choice=="s":
         print("Player 1 score =",sp1)
         print()
         break
@@ -27,7 +27,7 @@ while True:
 print("Play player 2")
 while True:
     choice=input("Would you like to Roll or Stop?: ").lower()
-    if choice=="roll":
+    if choice=="r":
         dice=random.randint(1,6)
         if dice==1:
             print("Dice rolled 1...")
@@ -39,7 +39,7 @@ while True:
             print("Dice rolled", dice)
             sp2+=dice
             print("Player 2 score=", sp2)
-    elif choice=="stop":
+    elif choice=="s":
         print("Player 2 score =",sp2)
         print()
         break
@@ -55,4 +55,4 @@ if sp1>sp2:
 elif sp1<sp2:
     print("Player 2 wins!")
 else:
-    print("I'ts a draw!")
+    print("It's a draw!")
