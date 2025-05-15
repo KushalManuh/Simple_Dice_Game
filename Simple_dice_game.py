@@ -26,7 +26,7 @@ while True:
         
 print("Play player 2")
 while True:
-    choice=input("Would you like to Roll or Stop?: ").lower()
+    choice=input("Would you like to Roll(r) or Stop(s)?: ").lower()
     if choice=="r":
         dice=random.randint(1,6)
         if dice==1:
