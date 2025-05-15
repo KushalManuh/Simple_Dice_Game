@@ -1,5 +1,4 @@
 import random
-dice=0
 sp1=0
 sp2=0
 print("Play player 1")
