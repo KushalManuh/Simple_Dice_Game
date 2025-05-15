@@ -1,4 +1,4 @@
 --The game is a dice game where 2 players compete to get a higher score.
 --But there is a catch:
 --Whnever the number 1 is rolled, the player loses his/her total score and their chance!
---This is a game mostly based on luck and a bit if logic and skill.
+--This is a game mostly based on luck and a bit of logic and skill.
