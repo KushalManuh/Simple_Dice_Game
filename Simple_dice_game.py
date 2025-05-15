@@ -1,8 +1,9 @@
 import random
+dice=0
 sp1=0
 sp2=0
 print("Play player 1")
-while dice!=1:
+while True:
     choice=input("Would you like to Roll or Stop?: ").lower()
     if choice=="roll":
         dice=random.randint(1,6)
@@ -24,7 +25,7 @@ while dice!=1:
         print("Invalid Choice")
         
 print("Play player 2")
-while dice!=1:
+while True:
     choice=input("Would you like to Roll or Stop?: ").lower()
     if choice=="roll":
         dice=random.randint(1,6)
